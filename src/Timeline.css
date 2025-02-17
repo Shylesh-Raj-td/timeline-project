@@ -6,7 +6,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-family: "Montserrat", serif;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .timeline-container {
@@ -85,37 +85,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 5px;
+    padding: 0px 4px;
     padding-left: 25px;
     cursor: pointer;
     border-radius: 8.9vw;
-    width: 150px;
+    width: 156px;
     height: 53.14px;
     position: relative;
     overflow: hidden;
-}
-
-.button-arrow-container {
-    background-color: cyan;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    right: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: background-color 0.3s ease-in-out;
 }
 
 .button-arrow {
     color: black;
     background-color: cyan;
     border-radius: 50%;
-    padding: 14px;
-    font-size: 16px;
+    width: 15px;
+    padding: 15px;
+    font-size: 12px;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
@@ -152,10 +138,11 @@ body {
     }
 
     .left-section {
+        position: relative;
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding: 10px;
-        padding-left: 0;
+        padding-left: 18px;
     }
 
     .middle-bar {
@@ -167,23 +154,19 @@ body {
     }
 
     .explore-btn {
-        width: 120px;
-        padding: 12px 18px;
-        margin: 20px auto;
-        /* Centers the button */
+        width: 135px;
+        height: 50px;
+        padding: 6px;
+        padding-left: 18px;
+        margin: 20px;
+        margin-left: 0px;
         display: flex;
-        justify-content: center;
         justify-content: space-between;
     }
 
-    .button-arrow-container {
-        width: 35px;
-        height: 35px;
-    }
-
     .button-arrow {
-        font-size: 16px;
-        padding: 8px;
+        font-size: 15px;
+        padding: 11px;
     }
 }
 
@@ -193,26 +176,23 @@ body {
     }
 
     .left-section p {
+        position: relative;
         font-size: 14px;
         margin-bottom: 30px;
     }
 
     .explore-btn {
         width: 110px;
-        padding: 10px 15px;
+        padding-left: 12px;
+        height: 42px;
         font-size: 12px;
         display: flex;
         justify-content: center;
         justify-content: space-between;
     }
 
-    .button-arrow-container {
-        width: 30px;
-        height: 30px;
-    }
-
     .button-arrow {
         font-size: 14px;
-        padding: 6px;
+        padding: 7px;
     }
 }
